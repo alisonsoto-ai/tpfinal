@@ -1,0 +1,103 @@
+/*ESTILOS MAIN (FONDO DE LA PAGINA)*/
+body{
+background-image: url(../img/vivi.png);
+}
+/*ESTILOS HEADER*/
+header{
+    padding: 20px;
+    text-align: center;
+}
+/*ESTILOS MAIN*/
+main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/*ESTILOS SECTION*/
+section{
+    flex: 1;
+    padding: 10px;
+}
+section p{
+    text-align: center;
+    margin-top: 100px;
+}
+/*ESTILOS FOOTER*/
+footer{
+    padding: 20px;
+    text-align: center;
+}
+/*FUENTES DE PAGINA PRNCIPAL*/
+#inicio{
+    font-family: "Mr Dafoe", cursive;
+    color: white;
+    font-size: 50px;
+    background-color: rgba(116, 126, 113, 0.425)
+}
+#moda{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgba(116, 126, 113, 0.425)
+}
+#mmoda{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+#credito{
+    color: white;
+    font-family: "Satisfy", cursive;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(116, 126, 113, 0.425)
+}
+/*AJUSTE DE CARRUSEL*/
+.verano{
+    margin-left: auto;
+    margin-right: auto; 
+    width:30vw;
+    justify-content: center;
+    display: flex;
+}
+.rojo{
+    margin-left: auto;
+    margin-right: auto; 
+    width:30vw;
+    justify-content: center;
+    display: flex;
+}
+.azul{
+    margin-left: auto;
+    margin-right: auto; 
+    width:30vw;
+    justify-content: center;
+    display: flex;
+}
+/*COLORES DE LETRA DEL CATALOGO*/
+#font{
+    color: white;
+}
+#font1{
+    color: white;
+}
+#hi{
+    color: white;
+}
+#hi1{
+    color: white;
+}
+#ho{
+    color: white;
+}
+#ho1{
+    color: white;
+}
+/*AJUSTES EN REGISTRO*/
+#registro{
+    font-family: "Mr Dafoe", cursive;
+    color: white;
+}
